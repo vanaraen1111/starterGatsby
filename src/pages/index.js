@@ -6,9 +6,9 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
+<center>
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
+    <Seo title="Van's Landing Page" />
     <p>Need IT expertise for your business needs? Let's Talk</p>
     <StaticImage
       src="../images/van-whatsapp.jpeg"
@@ -27,7 +27,7 @@ const IndexPage = () => (
       alt="Cia me :P"
       style={{ marginBottom: `1.45rem` }}
     />
-  </Layout>
+  </Layout></center>
 )
 
 export default IndexPage
