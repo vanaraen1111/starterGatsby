@@ -20,7 +20,7 @@ const IndexPage = () => (
     />
     <p>Buy me a coffee if you want :)</p>
     <StaticImage
-      src="../images/van-qrpay-maybank.jpeg"
+      src="../images/van-qrpay-maybank.jpg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
